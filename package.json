@@ -1,0 +1,34 @@
+{
+  "name": "inkflow",
+  "version": "1.0.0",
+  "description": "InkFlow - Modern Blog and Article Writing Application",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlphaGhostUSMC/InkFlow.git"
+  },
+  "keywords": [
+    "BlogApp"
+  ],
+  "author": "AlphaGhost",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlphaGhostUSMC/InkFlow/issues"
+  },
+  "homepage": "https://github.com/AlphaGhostUSMC/InkFlow#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.1",
+    "react-markdown": "^8.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
