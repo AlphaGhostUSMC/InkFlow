@@ -1,0 +1,2 @@
+# InkFlow
+ InkFlow - Modern Blog and Article Writing Application  InkFlow is a full-stack web application built with React, Node.js, Express.js, and MongoDB. It provides users with a seamless platform to write, edit, and publish blogs and articles using a markdown editor. The application features a neat and modern user interface, authentication system, and various formatting options for easy content creation.
