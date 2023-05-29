@@ -21,9 +21,11 @@ The project follows a well-organized folder structure to separate the backend an
 
 
 ### Contributing
+
 Contributions to InkFlow are welcome! Feel free to submit bug reports, feature requests, or pull requests. Let's work together to make InkFlow even better.
 
 ### License
+
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 Have a question or need support? Reach out to the project maintainers or create an issue in the repository.

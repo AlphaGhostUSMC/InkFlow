@@ -1,0 +1,5 @@
+npm i --save-dev nodemon
+
+npm install @mui/material @emotion/react @emotion/styled
+
+npm install express mongodb dotenv mongoose bcrypt cookie-parser cors react-markdown
