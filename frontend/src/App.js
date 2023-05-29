@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Container } from '@material-ui/core';
 import MarkdownEditor from './components/markdownEditor';
+import RegistrationForm from './components/registrationForm';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Container maxWidth="lg">
         <Switch>
           <Route exact path="/" component={MarkdownEditor} />
+          <Route exact path="/" component={RegistrationForm} />
         </Switch>
       </Container>
     </Router>

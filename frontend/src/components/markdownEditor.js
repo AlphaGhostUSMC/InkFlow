@@ -83,4 +83,4 @@ const MarkdownEditor = () => {
   );
 };
 
-export default markdownEditor;
+export default MarkdownEditor;
