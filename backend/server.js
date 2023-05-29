@@ -20,11 +20,11 @@ app.use('/auth', authRoutes);
 app.use('/blogs', blogRoutes);
 
 // Serve the React app
-app.use(express.static(path.join(__dirname, 'frontend', 'public')));
+app.use(express.static(path.join(__dirname, '..', 'frontend', 'public')));
 
 // Handle requests for all routes
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'frontend', 'public', 'index.html'));
+  res.sendFile(path.join(__dirname, '..', 'frontend', 'public', 'index.html'));
 });
 
 // Error handling middleware

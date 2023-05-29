@@ -10,7 +10,7 @@ function App() {
       <Container maxWidth="lg">
         <Switch>
           <Route exact path="/" component={MarkdownEditor} />
-          <Route exact path="/" component={RegistrationForm} />
+          <Route exact path="/registration-form" component={RegistrationForm} />
         </Switch>
       </Container>
     </Router>
