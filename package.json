@@ -4,6 +4,7 @@
   "description": "InkFlow - Modern Blog and Article Writing Application",
   "main": "server.js",
   "scripts": {
+    "start": "react-scripts start",
     "devStart": "nodemon backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -36,6 +37,7 @@
     "react-markdown": "^8.0.7"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "react-scripts": "^5.0.1"
   }
 }
