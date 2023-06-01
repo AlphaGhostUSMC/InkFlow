@@ -3,9 +3,6 @@ const crypto = require('crypto');
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 
-
-// Generate a secret key for JWT signing
-// Set the seed value for the pseudo-random number generator
 const seedValue = 'myseed';
 
 // Create a hash of the seed value
